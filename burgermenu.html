@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Shop</title>
+    <style>
+        body {
+            background-image: url(https://images.unsplash.com/photo-1565946802455-e22f77e72a7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80);
+            background-size: auto;
+            font-family: lato;
+        }
+        .container {
+            padding: 30px;
+            margin: 30px;
+            background-color: rgba(209, 149, 100, 0.767);
+        }
+        .hello {
+            width: 100%;
+            border: none;
+            height: 30px;
+            font-family: lato;
+            font-size: 20px;
+            margin: 0px 0px 30px 0px;
+            background-color: rgba(161, 192, 221, 0.521);
+        }
+        label {
+            font-family: lato;
+            font-size: 30px;
+            margin: 0px;
+        }
+        hr {
+            height: 2px;
+            background-color: rgba(0, 0, 0, 0.24);
+            border-radius: 50%;
+        }
+        form {
+            font-size: 23px;
+        }
+        button {
+            height: 50px;
+            width: 100px;
+            border: none;
+            background-color: rgba(190, 86, 0, 0.425);
+            font-family: lato;
+            font-size: 20px;
+            margin: 30px ;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            Order your burgers here!
+        </h1>
+        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=902&q=80" alt="burger image" width="100%">
+        <form action="">
+            <label for="name">Name</label> <br>
+            <input type="text" name="name" id="name" class="hello">
+            <br>
+            <label for="onions">Do you want onions in your burger?</label><br>
+            <input type="radio" name="onions" id="yes">Yes
+            <input type="radio" name="onions" id="no"> No
+            <br>
+            <label for="choices">Choose what you want in your burger</label>
+            <br>
+            <input type="checkbox" name="choices" id="Tomato Sauce"> Tomato Sauce
+            <input type="checkbox" name="choices" id="Mustard Sauce"> Mustard Sauce
+            <input type="checkbox" name="choices" id="Cheese"> Cheese
+            <input type="checkbox" name="choices" id="Lettuce"> Lettuce
+            <input type="checkbox" name="choices" id="Meat"> Meat <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
