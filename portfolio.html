@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/portfolio.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://images.unsplash.com/photo-1490650034439-fd184c3c86a5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+            alt="Cat me :)" width="250px">
+        <h1 class="name">
+            Hi, I'm Pakhi Bisht
+        </h1>
+        <p>
+            I'm an eighth grader and I love to code! <br> I play table tennis as a hobby and also like to draw
+            occassionally. I'm a math geek and I love new problems to solve, but I get frustrated pretty easily :)
+            <br><br> I code in a few languages like HTML, CSS, JS, Python. <br> ( I still get about 50 errors per hour
+            tho. ehhe)
+        </p>
+        <hr class="first-hr">
+        <hr class="last-hr">
+        <div class="footer">
+            <a href="https://github.com/Psych4-383" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <button onclick="visible()"><i class="fa fa-envelope hover"></i></button>
+            <h6 id="email">pikachu.bisht.67@gmail.com <br> (Click icon again to close)</h6>
+        </div>
+    </div>
+    <script>
+        function visible(){
+            var el = document.getElementById('email')
+            if (el.style.display === 'none') {
+                el.style.display = 'block';
+            }
+            else{
+                el.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+img {
+    border-radius: 50%;
+    opacity: 65%;
+    margin: 70px 20px 10px;
+}
+body{
+    background-image: url(https://s2.qwant.com/thumbr/0x380/5/7/d6113c482576f1f2f38de5f56aecf8c4c6746557dd4bae54715d9ed42661bc/1127302-vertical-cool-black-background-designs-2170x1472-download.jpg?u=http%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2Ff%2F9%2F8%2F1127302-vertical-cool-black-background-designs-2170x1472-download.jpg&q=0&b=1&p=0&a=0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.name {
+    color: white;
+    font-family: orbitron;
+    font-size: 80px;
+    margin: 10px ;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-hr {
+    width: 20%;
+}
+hr {
+    margin: 4px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.432);
+    border: 1px rgba(110, 110, 110, 0.041) solid;
+    border-radius: 100%;
+}
+.last-hr {
+    width: 70%;
+}
+p {
+    color: white;
+    margin: 10px 100px 50px;
+    text-align: center;
+    font-family: 'indie flower';
+    font-size: 27px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer i{
+    color: white;
+    font-size: 60px;
+    margin: 20px;
+}
+.footer i:hover{
+    cursor: pointer;
+}
+#email {
+    display: none;
+}
+button, button::after{
+    background-color: transparent;
+    border-color: transparent;
+}
+h6{
+    color: white;
+}

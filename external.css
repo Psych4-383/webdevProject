@@ -2,7 +2,7 @@ body {
     background-image: url(https://images.unsplash.com/photo-1611867010715-e6531fe870c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80);
     background-size: cover;
     background-attachment: fixed;
-    background-repeat: none;
+    background-repeat: no-repeat;
 }
 .container {
     padding: 30px;
